@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+        <meta charset="utf-8" />
+        <title>jish - jisha</title>
+        <link rel="stylesheet" href="/theme/css/main.css" />
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">jish </a></h1>
+                <nav><ul>
+                    <li><a href="/category/review.html">Review</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="/site-generation-using-pelican.html">Site generation using pelican</a></h1>
+<footer class="post-info">
+        <abbr class="published" title="2019-03-11T10:20:00+01:00">
+                Published: Mon 11 March 2019
+        </abbr>
+
+        <address class="vcard author">
+                By                         <a class="url fn" href="/author/jisha.html">jisha</a>
+        </address>
+<p>In <a href="/category/review.html">Review</a>.</p>
+
+</footer><!-- /.post-info --><p>Following is a review of my first experience with pelican.
+I am new to this technology I only knew some python basics. Eventhough<br>
+i am a beginner it is fun to work with pelican.</p>
+<p>Site generation using pelican</p>
+<ol>
+<li>Create a new virtual environment</li>
+<li>Then run "<strong>pip install pelican markdown”</strong> </li>
+<li>Create a Project and choose a directory for your site with suitable names “<strong>mkdir -p ~/projects/yoursite” and "cd ~/projects/yoursite"</strong></li>
+<li>To create a skelton project we have to run ”<strong>pelican-quickstart”</strong>, this will follow to a few questions tat helps to build the site.</li>
+<li>Next we have to add some contents using any text editor and save  as .md file. We cannot run Pelican without creating some contents.</li>
+<li>From the site directory, to generate our site  run “<strong>pelican content”</strong>.</li>
+<li>To preview our site “<strong>pelican —listen</strong>” (The default port for the site is 8000, if it is already taken we can run “pelican -p  8003 --listen”. That will choose the new port)</li>
+</ol>
+<p>Steps to push the code into Github</p>
+<ol>
+<li>Create a new repository to add the web page</li>
+<li>Change the directory into the output which includes all html files</li>
+<li>From there initialise the directory using <strong>git init</strong></li>
+<li>Then follow <strong>git remote add origin git@github.com:username/newrepo.git</strong> and <strong>git commits -m "initial commit"</strong>**</li>
+<li>Finally <strong>git push -u origin master</strong></li>
+</ol>                </article>
+            </aside><!-- /#featured -->
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>links</h2>
+                        <ul>
+                            <li><a href="http://getpelican.com/">Pelican</a></li>
+                            <li><a href="http://python.org/">Python.org</a></li>
+                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
+                            <li><a href="#">You can modify those links in your config file</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+
+                            <li><a href="#">You can add links in your config file</a></li>
+                            <li><a href="#">Another social link</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+
+                <p>The theme is by <a href="http://coding.smashingmagazine.com/2009/08/04/designing-a-html-5-layout-from-scratch/">Smashing Magazine</a>, thanks!</p>
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
